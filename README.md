@@ -19,14 +19,14 @@ The server will start listening on `http://localhost:8000`.
 
 ### API's
 
-* Load hotel data Api
-* endpoint : http://localhost:8080/ascenda/loaddata
+## Load hotel data Api
+ endpoint : http://localhost:8080/ascenda/loaddata
 
-* Search Hotel by Id
-* endpoint : http://localhost:8080/ascenda/hotelid/iJhz
+## Search Hotel by Id
+ endpoint : http://localhost:8080/ascenda/hotelid/iJhz
 
-* Search Hotel by destination Id
-* endpoint : http://localhost:8080/ascenda/destid/5432
+## Search Hotel by destination Id
+ endpoint : http://localhost:8080/ascenda/destid/5432
 
 
 
