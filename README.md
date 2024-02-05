@@ -76,6 +76,9 @@ The reasoning and explanation of merging the individual properties of the hotels
 
 ### Enhancement
 
-** Have saparte daily schedular to load data from endpoints.
-** Process large hotel dataset through Apache Spark.
-** Have data validation check.
+#### Have saparte daily schedular to load data from endpoints.
+
+#### Process large hotel dataset through Apache Spark.
+
+#### Have data validation check.
+
