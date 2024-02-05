@@ -1,0 +1,122 @@
+{
+  "datasource_hostname": [
+    "https://5f2be0b4ffc88500167b85a0.mockapi.io/suppliers/acme",
+    "https://5f2be0b4ffc88500167b85a0.mockapi.io/suppliers/patagonia",
+    "https://5f2be0b4ffc88500167b85a0.mockapi.io/suppliers/paperflies"
+  ],
+  "mapping": [
+    {
+      "column": "hotel_id",
+      "lookup_columns": [
+        "hotel_id",
+        "Id"
+      ],
+      "default_value": "NA",
+      "enabled": true
+    },
+    {
+      "column": "destination_id",
+      "lookup_columns": [
+        "destination_id",
+        "DestinationId",
+        "destination"
+      ],
+      "default_value": "NA",
+      "enabled": true
+    },
+    {
+      "column": "hotel_name",
+      "lookup_columns": [
+        "hotel_name",
+        "Name"
+      ],
+      "default_value": "NA",
+      "enabled": true
+    },
+    {
+      "column": "latitude",
+      "lookup_columns": [
+        "Latitude",
+        "lat"
+      ],
+      "default_value": "NA",
+      "enabled": true
+    },
+    {
+      "column": "longitude",
+      "lookup_columns": [
+        "Longitude",
+        "lng"
+      ],
+      "default_value": "NA",
+      "enabled": true
+    },
+    {
+      "column": "address",
+      "lookup_columns": [
+        "Address"
+      ],
+      "default_value": "NA",
+      "enabled": true
+    },
+    {
+      "column": "city",
+      "lookup_columns": [
+        "City"
+      ],
+      "default_value": "NA",
+      "enabled": true
+    },
+    {
+      "column": "country",
+      "lookup_columns": [
+        "Country"
+      ],
+      "default_value": "NA",
+      "enabled": true
+    },
+    {
+      "column": "postal_code",
+      "lookup_columns": [
+        "PostalCode"
+      ],
+      "default_value": "NA",
+      "enabled": true
+    },
+    {
+      "column": "description",
+      "lookup_columns": [
+        "Description",
+        "details",
+        "info"
+      ],
+      "default_value": "NA",
+      "enabled": true
+    },
+    {
+      "column": "facilities",
+      "lookup_columns": [
+        "Facilities",
+        "amenities"
+      ],
+      "default_value": "NA",
+      "enabled": true
+    },
+    {
+      "column": "images",
+      "lookup_columns": [
+        "images"
+      ],
+      "default_value": "NA",
+      "enabled": true
+    },
+    {
+      "column": "booking_conditions",
+      "lookup_columns": [
+        "booking_conditions"
+      ],
+      "default_value": "NA",
+      "enabled": true
+    }
+  ]
+}
