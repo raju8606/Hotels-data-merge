@@ -86,7 +86,7 @@
                 <artifactId>spring-boot-maven-plugin</artifactId>
             </plugin>
         </plugins>
-        <finalName>spring-boot-docker</finalName>
+        <finalName>hotel-data-merge</finalName>
     </build>
 
 </project>
