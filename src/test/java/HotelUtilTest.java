@@ -1,4 +1,4 @@
-import com.asenda.util.HotelUtil;
+import com.ascendaloyalty.util.HotelUtil;
 import org.json.JSONException;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Disabled;

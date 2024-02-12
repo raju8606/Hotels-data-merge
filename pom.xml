@@ -8,7 +8,7 @@
         <version>2.7.2</version>
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
-    <groupId>com.asenda</groupId>
+    <groupId>com.ascendaloyalty</groupId>
     <artifactId>hotelDataMerge</artifactId>
     <version>1.0-SNAPSHOT</version>
     <name>spring-boot-app-hotelDataMerge</name>

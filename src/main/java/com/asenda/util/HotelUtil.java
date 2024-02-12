@@ -1,4 +1,4 @@
-package com.asenda.util;
+package com.ascendaloyalty.util;
 
 import com.fasterxml.jackson.databind.JsonNode;
 import net.minidev.json.JSONObject;

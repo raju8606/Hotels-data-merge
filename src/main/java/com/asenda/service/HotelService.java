@@ -1,7 +1,7 @@
-package com.asenda.service;
+package com.ascendaloyalty.service;
 
 
-import com.asenda.util.HotelUtil;
+import com.ascendaloyalty.util.HotelUtil;
 import com.fasterxml.jackson.databind.JsonNode;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import net.minidev.json.JSONObject;
@@ -12,6 +12,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.core.io.ClassPathResource;
 import org.springframework.stereotype.Service;
 
+import java.io.File;
 import java.io.IOException;
 import java.net.URL;
 
@@ -88,7 +89,7 @@ public class HotelService {
     }
 
     public JsonNode getJsonTemplate() throws IOException {
-        JsonNode template = objectMapper.readValue(new ClassPathResource("template.json").getFile(), JsonNode.class);
+        JsonNode template = objectMapper.readValue(new File("template.json"), JsonNode.class);
         return template;
     }
 

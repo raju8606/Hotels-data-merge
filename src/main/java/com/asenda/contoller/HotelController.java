@@ -1,7 +1,7 @@
-package com.asenda.contoller;
+package com.ascendaloyalty.contoller;
 
 
-import com.asenda.service.HotelService;
+import com.ascendaloyalty.service.HotelService;
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import org.springframework.beans.factory.annotation.Autowired;

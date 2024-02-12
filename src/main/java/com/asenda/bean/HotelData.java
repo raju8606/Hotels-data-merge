@@ -1,4 +1,4 @@
-package com.asenda.bean;
+package com.ascendaloyalty.bean;
 
 
 public class HotelData {
