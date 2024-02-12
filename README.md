@@ -14,7 +14,11 @@ Prerequisites:
 
 ### Running the application
 
-Simply run the `java -jar target/hotel-data-merge.jar` command to start the webserver.
+Simply run the below commands to start the webserver.
+mvn clean install
+docker build -t hotel-data-merge .
+docker run -d -p 8080:8080 hotel-data-merge
+
 The server will start listening on `http://localhost:8000`. 
 
 ### API's
@@ -80,5 +84,7 @@ The reasoning and explanation of merging the individual properties of the hotels
 
 #### Process large hotel dataset through Apache Spark.
 
-#### Have data validation check.
+#### ata sanitization
+
+#### Have a data validation check.
 
