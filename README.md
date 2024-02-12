@@ -15,9 +15,12 @@ Prerequisites:
 ### Running the application
 
 Simply run the below commands to start the webserver.
-mvn clean install
-docker build -t hotel-data-merge .
-docker run -d -p 8080:8080 hotel-data-merge
+
+#### mvn clean install
+
+#### docker build -t hotel-data-merge .
+
+#### docker run -d -p 8080:8080 hotel-data-merge
 
 The server will start listening on `http://localhost:8000`. 
 
